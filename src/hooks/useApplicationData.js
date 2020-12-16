@@ -14,9 +14,9 @@ export default function useApplicationData() {
   const setDay = day => setState({ ...state, day })
 
   useEffect(() => {
-    const first = 'http://localhost:8001/api/days';
-    const second = 'http://localhost:8001/api/appointments';
-    const third = 'http://localhost:8001/api/interviewers';
+    const first = `/api/days`;
+    const second = `/api/appointments`;
+    const third = `/api/interviewers`;
     Promise.all([
       axios.get(first),
       axios.get(second),
@@ -36,7 +36,7 @@ export default function useApplicationData() {
       ...state.appointments,
       [id]: appointment
     }
-    return (axios.put(`http://localhost:8001/api/appointments/${id}`, { interview })
+    return (axios.put(`/api/appointments/${id}`, { interview })
       .then(response => {
         if (response.status === 204) {
           setState({
