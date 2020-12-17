@@ -33,7 +33,7 @@ deploy:
     - run:
         name: Push Master to Production
         command: |
-          git push https://github.com/aproperzi2/scheduler master:production
+          git push https://github.com/aproperzi2/scheduler.git master:production
 
 workflows:
   version: 2
