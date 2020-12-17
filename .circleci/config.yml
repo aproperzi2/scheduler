@@ -28,12 +28,12 @@ deploy:
   steps:
     - add_ssh_keys:
         fingerprints:
-          - "45:50:b3:6f:0f:11:e2:04:42:b8:95:60:2c:55:b7:5d"
+          - "21:0c:72:57:0f:5d:f6:24:e8:e3:6a:cf:34:bc:a6:4f"
     - checkout
     - run:
         name: Push Master to Production
         command: |
-          git push https://github.com/aproperzi2/scheduler.git master:production
+          git push https://github.com/aproperzi2/scheduler.git master:master
 
 workflows:
   version: 2
