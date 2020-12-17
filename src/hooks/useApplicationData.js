@@ -59,7 +59,7 @@ export default function useApplicationData() {
       ...state.appointments,
       [id]: appointment
     }
-    return (axios.delete(`http://localhost:8001/api/appointments/${id}`)
+    return (axios.delete(`/api/appointments/${id}`)
       .then(response => {
         setState({
           ...state,
