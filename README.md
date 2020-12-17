@@ -5,8 +5,8 @@ Link: https://5fdad041eede3e0007a563a1--compassionate-lovelace-a30159.netlify.ap
 
 ## Final Product
 
-!["Landing page with 1 interview booked"](https://github.com/aproperzi2/scheduler/blob/master/public/docs/scheduler1.png?raw=true)
-!["On click of add button, you may enter your name and choose an interviewer"](https://github.com/aproperzi2/scheduler/blob/master/public/docs/scheduler2.png?raw=true)
+!["Landing page with 1 interview booked"](https://github.com/aproperzi2/scheduler/blob/master/docs/scheduler1.png?raw=true)
+!["On click of add button, you may enter your name and choose an interviewer"](https://github.com/aproperzi2/scheduler/blob/master/docs/scheduler2.png?raw=true)
 
 ## Dependencies
 
